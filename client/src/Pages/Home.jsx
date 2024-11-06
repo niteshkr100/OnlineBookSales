@@ -143,7 +143,7 @@ const Home = () => {
               </div>
             </header>
 
-            <section className="container px-6 my-8 ">
+            <section className="container px-6 my-8 ">{/*added padding */}
               <h2 className="text-3xl font-bold mb-6 text-gray-800 dark:text-white text-center">Book Categories</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
@@ -287,7 +287,7 @@ const Home = () => {
               </div>
             </section>
             {/* Featured Author Section */}
-            <section className="container mx-auto my-8 px-6">
+            <section className="container mx-auto my-8 px-6"> {/*added padding */}
               <h2 className="text-3xl font-bold mb-6 text-gray-800 dark:text-white">Featured Author</h2>
 
               <div className="bg-white rounded-lg shadow-lg p-6 flex items-center dark:bg-[rgb(30,30,30)]">
